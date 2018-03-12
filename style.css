@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:700');
+.jumbotron {}
+
+.jumbotron h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3rem;
+}
+
+.button-green {
+    text-transform: uppercase;
+    background-color: #ABDA0A;
+}
+
+.button-green:hover {
+    background-color: #CEFF25;
+}
+
+a.btn-green {
+    color: white;
+    font-weight: 500;
+}
+a.btn-green:hover {
+    color: purple;
+}
