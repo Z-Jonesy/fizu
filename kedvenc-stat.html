@@ -21,19 +21,19 @@
     </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="#">Főoldal
             <span class="sr-only">(current)</span>
           </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="kedvenc-stat.html">Kedvenc statisztikáink</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kérdőívek</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link disabled" href="#">Rólunk</a>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="rolunk.html">Rólunk</a>
                 </li>
                 <li class="nav-item dropdown ml-3 mr-5">
                     <a class="nav-link dropdown-toggle mr-5" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -58,67 +58,83 @@
         </div>
     </div>
 
-    <section>
-        <div class="container">
-            <div class="row my-5 text-justify">
-                <div class="col-12 col-lg-6 my-auto">
-                    <h3 class="mb-4">Célunk</h3>
-                    <p class="mb-5 mb-lg-0 pr-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, esse! Maxime obcaecati reprehenderit molestiae tempore, delectus suscipit sit nisi dignissimos hic. Delectus dolore nam aperiam dolorum vero libero accusantium laudantium ratione distinctio, perspiciatis ut, maxime nesciunt quam dicta quasi magni odio, iure voluptatibus omnis iste perferendis? Fugit id possimus tempore.</p>
+    <div class="container">
+        <div class="row">
+            <main class="col-12 col-md-9">
+                <div class="row px-lg-5">
+                    <div class="card-deck mt-5">
+                        <div class="col-10 col-md-5 my-3 blog-card">
+                            <div class="card">
+                                <img class="card-img-top" src="img/blog_kep1.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-uppercase">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text"><small class="text-muted">2018.03.20</small></p>
+                                    <a href="#" class="float-right">Tovább olvasom ...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-6 my-3 blog-card">
+                            <div class="card">
+                                <img class="card-img-top" src="img/blog_kep2.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-uppercase">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text"><small class="text-muted">2018.03.20</small></p>
+                                    <a href="#" class="float-right">Tovább olvasom ...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-6 my-3 blog-card">
+                            <div class="card">
+                                <img class="card-img-top" src="img/blog_kep3.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-uppercase">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text"><small class="text-muted">2018.03.20</small></p>
+                                    <a href="#" class="float-right">Tovább olvasom ...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav aria-label="Page navigation" class="col-11 mt-5">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Előző</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Következő</a></li>
+                        </ul>
+                    </nav>
+
                 </div>
-                <div class="col-12 col-lg-6">
-                    <img src="img/O70K6L0.jpg" alt="cel" class="img-fluid">
+            </main>
+
+            <aside id="aside" class="col-12 col-md-3 mt-5">
+                <!-- Search -->
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <!-- Search -->
+
+                <div class="my-5">
+                    <h3>Tags</h3>
+                    <a href="#" class="badge badge-pill p-2 m-1 badge-primary">Primary</a>
+                    <a href="#" class="badge badge-pill p-2 m-1 badge-secondary">Secondary</a>
+                    <a href="#" class="badge badge-pill p-2 m-1 badge-success">Success</a>
+                    <a href="#" class="badge badge-pill p-2 m-1 badge-danger">Danger</a>
+                    <a href="#" class="badge badge-pill p-2 m-1 badge-warning">Warning</a>
+                    <a href="#" class="badge badge-pill p-2 m-1 badge-info">Info</a>
+                    <a href="#" class="badge badge-pill p-2 m-1 badge-light">Light</a>
+                    <a href="#" class="badge badge-pill p-2 m-1 badge-dark">Dark</a>
                 </div>
-            </div>
+            </aside>
+
         </div>
-    </section>
+    </div>
 
-    <section class="bg-green">
-        <div class="container text-center py-5">
-            <h3 class="mb-4">Amiben hiszünk</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quia repellat, beatae deserunt earum, reiciendis, ad eveniet consequuntur dolore aliquid repudiandae delectus consectetur consequatur laborum! Molestiae et iure dolores. Omnis ut eius, molestias minus officia repudiandae nisi quod ipsam incidunt ipsum harum cumque recusandae in.</p>
-        </div>
-    </section>
 
-    <section>
-        <div class="container py-5">
-            <div class="row my-5">
-                <div class="col-12 mb-5">
-                    <h3>Munkatársaink</h3>
-                </div>
-                <div class="col-10 col-sm-4 col-lg-2">
-                    <img src="img/portrait-1961529_960_720.jpg" alt="Szabó Veronika" class="img-fluid">
-                </div>
-                <div class="col-12 col-sm-8 my-auto pt-3 pt-sm-0">
-                    <h4>Szabó Veronika</h4>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ratione maiores explicabo quas dolor impedit quam, suscipit, dolore incidunt labore, illum, doloremque. Officiis, impedit, ut.</p>
-                    <p class="mb-0">szabo.veronika@fizu.hu</p>
-                </div>
-            </div>
-
-            <div class="row my-5 justify-content-end">
-                <div class="col-10 col-sm-4 col-lg-2">
-                    <img src="img/portrait-2865605_960_720.jpg" alt="Tóth Kata" class="img-fluid">
-                </div>
-                <div class="col-12 col-sm-8 my-auto pt-3 pt-sm-0">
-                    <h4>Tóth Kata</h4>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ratione maiores explicabo quas dolor impedit quam, suscipit, dolore incidunt labore, illum, doloremque. Officiis, impedit, ut.</p>
-                    <p class="mb-0">toth.kata@fizu.hu</p>
-                </div>
-            </div>
-
-            <div class="row my-5 ">
-                <div class="col-10 col-sm-4 col-lg-2">
-                    <img src="img/passion-1690965_960_720.jpg" alt="Kiss Roland" class="img-fluid">
-                </div>
-                <div class="col-12 col-sm-8 my-auto pt-3 pt-sm-0">
-                    <h4>Kiss Roland</h4>
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ratione maiores explicabo quas dolor impedit quam, suscipit, dolore incidunt labore, illum, doloremque. Officiis, impedit, ut.</p>
-                    <p class="mb-0">kiss.roland@fizu.hu</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
 
 
