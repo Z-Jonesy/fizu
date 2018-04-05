@@ -221,6 +221,21 @@ footer a:hover {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
 }
 
+/* cikk */
+.btn-facebook {
+    background-color: #3b5998;
+    border-radius: 1px;
+    color: #fff;
+    border-style: solid;
+    border-color: #263961;
+}
+.btn-facebook:link, .btn-facebook:visited {
+    color: #fff;
+
+}
+.btn-facebook:active, .btn-facebook:hover{
+    background-color: #263961;
+}
 
 /* */
 
